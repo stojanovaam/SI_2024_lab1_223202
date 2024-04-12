@@ -1,0 +1,86 @@
+commit 2ac4cde2373c576fbd4ae82f3ddd80d808f16334 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Marina <stojanova1807@gmail.com>
+Date:   Fri Apr 12 12:56:57 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 5637964e35fbb3de85e30d010d9f680d6d25fd5e
+Author: Marina <stojanova1807@gmail.com>
+Date:   Fri Apr 12 12:39:51 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit eadc544b5f2249fd5773817b88580e86ff83d0d7 (origin/bug1, bug1)
+Author: Marina <stojanova1807@gmail.com>
+Date:   Fri Apr 12 12:42:05 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 2e0c3b276ecfd50fe472c50428b292574139f76c
+Author: Marina <stojanova1807@gmail.com>
+Date:   Fri Apr 12 12:37:51 2024 +0200
+
+:...skipping...
+commit 2ac4cde2373c576fbd4ae82f3ddd80d808f16334 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Marina <stojanova1807@gmail.com>
+Date:   Fri Apr 12 12:56:57 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 5637964e35fbb3de85e30d010d9f680d6d25fd5e
+Author: Marina <stojanova1807@gmail.com>
+Date:   Fri Apr 12 12:39:51 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit eadc544b5f2249fd5773817b88580e86ff83d0d7 (origin/bug1, bug1)
+Author: Marina <stojanova1807@gmail.com>
+Date:   Fri Apr 12 12:42:05 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 2e0c3b276ecfd50fe472c50428b292574139f76c
+Author: Marina <stojanova1807@gmail.com>
+Date:   Fri Apr 12 12:37:51 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit abd9b1fb4242729c62db850cc8cc5cabd5a4266c
+Author: Marina <stojanova1807@gmail.com>
+Date:   Fri Apr 12 12:35:29 2024 +0200
+
+    Add starter code
+
+commit ca5e4ed572c1832dc891b7d51d410addad3d730c
+Author: Marina <stojanova1807@gmail.com>
+Date:   Fri Apr 12 12:33:32 2024 +0200
+
+    Initial commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)

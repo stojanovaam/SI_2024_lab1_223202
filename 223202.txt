@@ -1,0 +1,53 @@
+cd Desktop 
+cd SI_2024_lab1_223202 
+git init 
+git remote add origin https://github.com/stojanovaam/SI_2024_lab1_223202.git 
+nano README.md 
+git add README.md 
+git commit -m "Initial commit" 
+git add *.java 
+git commit -m "Add starter code" 
+git branch bug2 
+git branch bug1 
+git checkout bug1 
+nano SILab1_1.java 
+git add SILab1_1.java 
+git commit -m "Fix wrong condition in filterOddLengthStrings" 
+git checkout bug2 
+nano SILab1_2.java 
+git add SILab1_2.java 
+git commit -m "Fix wrong condition in makeBigStringFrom" 
+git checkout bug1 
+nano SILab1Main.java 
+git add SILab1Main.java 
+git commit -m "Call method filterOddLengthStrings in main class" 
+git checkout bug2 
+nano SILab1Main.java 
+git add SILab1Main.java 
+git commit -m "Call method makeBigStringFrom in main class" 
+git push -u origin master 
+git push -u origin bug1 
+git push -u origin bug2 
+git checkout master 
+git merge bug1 //strategija so koja se spojuvaat e Fast Forward
+git push -u origin master 
+git push -u origin bug1 
+git push -u origin bug2 
+git checkout bug2 
+git rebase master //se slucuva conflict koi go resiv taka sto povikav
+nano SILab1Main.java // i vnatre vo kodot gi izbrisav site >>> so koi mi 
+//e prikazano kade e konfliktot, i gi podrediv vo dve razlicni linii
+//bidejki konfliktot nastana tokmu poradi toa sto bea vo ista 16 linija 
+git add SILab1Main.java 
+git commit -m "Call method makeBigStringFrom in main class" 
+git rebase --continue 
+git checkout master 
+git merge bug2   //strategija so koja se spojuvaat Fast Forward 
+git push origin master 
+git push origin bug1 
+git push --force origin bug2
+git add *.txt
+git commit -m "Final commit"
+git push -u origin master
+git push -u origin bug1
+git push -u origin bug2
